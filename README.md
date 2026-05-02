@@ -1,4 +1,4 @@
-# KARMA-MV: A Benchmark for Causal Question Answering on Music Videos
+# Karma-MV: A Benchmark for Causal Question Answering on Music Videos
 
 [![Paper](https://img.shields.io/badge/Paper-arXiv-red)](https://arxiv.org/abs/TODO)
 [![Dataset](https://img.shields.io/badge/🤗%20Dataset-KARMA--MV-yellow)](https://huggingface.co/datasets/amaai-lab/KARMA-MV)
@@ -23,7 +23,7 @@ MCQs were generated and validated using the Qwen-2.5-7B-Instruct LLM. Each quest
 ## Repository Structure
 
 ```
-KARMA-MV/
+Karma-MV/
 ├── causal_knowledge_graph/   # Construction and querying of the Causal Knowledge Graph (CKG)
 ├── mcq_inference/            # MCQ answering pipelines
 │   ├── llm/                  # LLM-based inference (text-only)
