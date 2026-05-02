@@ -1,16 +1,16 @@
 # Karma-MV: A Benchmark for Causal Question Answering on Music Videos
 
 [![Paper](https://img.shields.io/badge/Paper-arXiv-red)](https://arxiv.org/abs/TODO)
-[![Dataset](https://img.shields.io/badge/🤗%20Dataset-KARMA--MV-yellow)](https://huggingface.co/datasets/amaai-lab/KARMA-MV)
+[![Dataset](https://img.shields.io/badge/🤗%20Dataset-KARMA--MV-yellow)](https://huggingface.co/datasets/amaai-lab/Karma-MV)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue)](https://www.apache.org/licenses/LICENSE-2.0)
 
-> **KARMA-MV** is a large-scale multiple-choice QA benchmark for causal audio-visual reasoning in music videos — testing how well models understand the relationship between visual dynamics and musical structure.
+> **Karma-MV** is a large-scale multiple-choice QA benchmark for causal audio-visual reasoning in music videos — testing how well models understand the relationship between visual dynamics and musical structure.
 
 ---
 
 ## Overview
 
-While significant progress has been made in video question answering and cross-modal understanding, causal reasoning about how visual dynamics drive musical structure in music videos remains under-explored. KARMA-MV addresses this with 37,737 MCQs derived from 2,682 YouTube music videos, spanning three reasoning types:
+While significant progress has been made in video question answering and cross-modal understanding, causal reasoning about how visual dynamics drive musical structure in music videos remains under-explored. Karma-MV addresses this with 37,737 MCQs derived from 2,682 YouTube music videos, spanning three reasoning types:
 
 - **Evidence Reasoning** — why did the music change given the visual transition?
 - **Predictive** — how will the music change given an upcoming visual change?
@@ -51,7 +51,7 @@ Both pipelines follow the same CKG augmentation interface, making it straightfor
 ## Dataset
 
 The full dataset is available on HuggingFace:
-👉 [https://huggingface.co/datasets/amaai-lab/KARMA-MV](https://huggingface.co/datasets/amaai-lab/KARMA-MV)
+👉 [https://huggingface.co/datasets/amaai-lab/Karma-MV](https://huggingface.co/datasets/amaai-lab/Karma-MV)
 
 Each JSON file corresponds to one music video and contains a list of scene-transition pair objects:
 
@@ -84,8 +84,8 @@ Each JSON file corresponds to one music video and contains a list of scene-trans
 ## Getting Started
 
 ```bash
-git clone https://github.com/AMAAI-Lab/KARMA-MV.git
-cd KARMA-MV
+git clone https://github.com/AMAAI-Lab/Karma-MV.git
+cd Karma-MV
 pip install -r requirements.txt
 ```
 
@@ -95,12 +95,12 @@ TODO: add instructions for running LLM/VLM inference and CKG construction.
 
 ## Citation
 
-If you use KARMA-MV in your research, please cite:
+If you use Karma-MV in your research, please cite:
 
 ```bibtex
 @article{ghosh2026karmamv,
   author    = {Archishman Ghosh and Abhinaba Roy and Dorien Herremans},
-  title     = {{KARMA-MV}: A Benchmark for Causal Question Answering on Music Videos},
+  title     = {{Karma-MV}: A Benchmark for Causal Question Answering on Music Videos},
   year      = {2026},
   journal   = {arXiv preprint}
 }
