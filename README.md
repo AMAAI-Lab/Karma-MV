@@ -89,7 +89,11 @@ cd Karma-MV
 pip install -r requirements.txt
 ```
 
-TODO: add instructions for running LLM/VLM inference and CKG construction.
+TODO:
+1. The MCQ files for each video are named as -- YouTubeID_qa.json.
+2. Yo need to execute the following scripts:
+   a. qwen_omni.py -- This script deals with Qwen-2.5-omni VLM
+   b. mini_cpm-o-4_5.py -- This script deals with 
 
 ---
 
