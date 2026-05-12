@@ -92,8 +92,26 @@ pip install -r requirements.txt
 TODO:
 1. The MCQ files for each video are named as -- YouTubeID_qa.json.
 2. Yo need to execute the following scripts:
-   a. qwen_omni.py -- This script deals with Qwen-2.5-omni VLM
-   b. mini_cpm-o-4_5.py -- This script deals with 
+a. qwen_omni.py -- This script deals with Qwen-2.5-omni VLM
+   ```bash
+python qwen_omni.py
+```
+b. mini_cpm-o-4_5.py -- This script is to run the MiniCPM-o-4.5 VLM
+```bash
+python mini_cpm-o-4_5.py
+```
+c. To run the Causal Konwledge Graph(CKG) integrated VLM model(the parquest files are to be loaded in the architecture, kindly check the path before executing the code):
+```bash
+python VLM_CKG.py
+```
+d. To check how an LLM performs given the well defined features execute:
+```bash
+python Gemma_4.py
+```
+e. The following command is to be used to execute the LLM+CKG:
+```bash
+python gemma_CoT_correct.py
+```
 
 ---
 
@@ -102,11 +120,14 @@ TODO:
 If you use Karma-MV in your research, please cite:
 
 ```bibtex
-@article{ghosh2026karmamv,
-  author    = {Archishman Ghosh and Abhinaba Roy and Dorien Herremans},
-  title     = {{Karma-MV}: A Benchmark for Causal Question Answering on Music Videos},
-  year      = {2026},
-  journal   = {arXiv preprint}
+@misc{ghosh2026karmamvbenchmarkcausalquestion,
+      title={KARMA-MV: A Benchmark for Causal Question Answering on Music Videos}, 
+      author={Archishman Ghosh and Abhinaba Roy and Dorien Herremans},
+      year={2026},
+      eprint={2605.08175},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2605.08175}, 
 }
 ```
 
@@ -119,3 +140,4 @@ This project is licensed under the [Apache 2.0 License](https://www.apache.org/l
 ## Contact
 
 For questions, please open a GitHub issue or contact the authors via the [AMAAI Lab](https://amaailab.com).
+Any suggestions are welcome, it would be helpful for us to improve our model and dataset.
