@@ -93,15 +93,15 @@ TODO:
 1. The MCQ files for each video are named as -- YouTubeID_qa.json.
 2. Yo need to execute the following scripts:
 a. qwen_omni.py -- This script deals with Qwen-2.5-omni VLM
-   ```bash
+```bash
 python qwen_omni.py
 ```
 b. mini_cpm-o-4_5.py -- This script is to run the MiniCPM-o-4.5 VLM
-  ```bash
+```bash
 python mini_cpm-o-4_5.py
 ```
 c. To run the Causal Konwledge Graph(CKG) integrated VLM model(the parquest files are to be loaded in the architecture, kindly check the path before executing the code):
-  ```bash
+```bash
 python VLM_CKG.py
 ```
 d. To check how an LLM performs given the well defined features execute:
