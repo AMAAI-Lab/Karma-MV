@@ -1,6 +1,6 @@
 # Karma-MV: A Benchmark for Causal Question Answering on Music Videos
 
-[![Paper](https://img.shields.io/badge/Paper-arXiv-red)]([https://arxiv.org/abs/TODO](https://arxiv.org/abs/2605.08175))
+[![Paper](https://img.shields.io/badge/Paper-arXiv-red)](https://arxiv.org/abs/2605.08175))
 [![Dataset](https://img.shields.io/badge/🤗%20Dataset-KARMA--MV-yellow)](https://huggingface.co/datasets/amaai-lab/Karma-MV)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue)](https://www.apache.org/licenses/LICENSE-2.0)
 
